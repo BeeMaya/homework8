@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2408E0DB2A4297CCC22494C9 /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408ECC2B646A022A54D74F5 /* Predator.m */; };
+		2408E1214258C966BC2B7C3B /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */; };
+		2408E23244B50CE9999E4908 /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */; };
+		2408E29F5B8A38CF23401222 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408EDEA9804B76B2A7EF463 /* Vegetable.m */; };
+		2408E55FB844BCC895963763 /* Gracing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E03745D6C2B1A71596FB /* Gracing.m */; };
+		2408E6686BE8723F743B2CAE /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408EDEA9804B76B2A7EF463 /* Vegetable.m */; };
+		2408E81634864673B214B0FF /* Gracing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E03745D6C2B1A71596FB /* Gracing.m */; };
+		2408E8FCECE0AEDABB2ECE72 /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E7E2B6191E3352369DA8 /* Rabbit.m */; };
+		2408EC47ECBF0256F6626B2B /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E7E2B6191E3352369DA8 /* Rabbit.m */; };
+		2408EEE2DBF8730F0F68F82C /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408ECC2B646A022A54D74F5 /* Predator.m */; };
+		866F494B1A3D6D5B002AEB8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F494A1A3D6D5B002AEB8A /* main.m */; };
+		866F494E1A3D6D5B002AEB8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F494D1A3D6D5B002AEB8A /* AppDelegate.m */; };
+		866F49511A3D6D5B002AEB8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49501A3D6D5B002AEB8A /* ViewController.m */; };
+		866F49541A3D6D5B002AEB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866F49521A3D6D5B002AEB8A /* Main.storyboard */; };
+		866F49561A3D6D5B002AEB8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866F49551A3D6D5B002AEB8A /* Images.xcassets */; };
+		866F49591A3D6D5B002AEB8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866F49571A3D6D5B002AEB8A /* LaunchScreen.xib */; };
+		866F49651A3D6D5C002AEB8A /* LittleZooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49641A3D6D5C002AEB8A /* LittleZooTests.m */; };
+		866F49731A3D728D002AEB8A /* D3Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49721A3D728D002AEB8A /* D3Size.m */; };
+		866F49751A3D8427002AEB8A /* PredatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49741A3D8427002AEB8A /* PredatorTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		866F495F1A3D6D5C002AEB8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866F493D1A3D6D5B002AEB8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866F49441A3D6D5B002AEB8A;
+			remoteInfo = LittleZoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2408E03745D6C2B1A71596FB /* Gracing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gracing.m; sourceTree = "<group>"; };
+		2408E1FDE8FC138F4E1B8640 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		2408E398E50F546A70C403AD /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		2408E479608B3E7820CE54AE /* Measurable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurable.h; sourceTree = "<group>"; };
+		2408E4E8D1C0A9E7FE28B9C0 /* BaseAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimal.h; sourceTree = "<group>"; };
+		2408E590A4A9E268A8C2D151 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		2408E631A8ADD7A157BD4424 /* Gracing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gracing.h; sourceTree = "<group>"; };
+		2408E7E2B6191E3352369DA8 /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
+		2408E7F11BB872A8C35F0D63 /* Rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rabbit.h; sourceTree = "<group>"; };
+		2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimal.m; sourceTree = "<group>"; };
+		2408E8D3F63451FC669CFBD0 /* Predator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Predator.h; sourceTree = "<group>"; };
+		2408ECC2B646A022A54D74F5 /* Predator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Predator.m; sourceTree = "<group>"; };
+		2408EDEA9804B76B2A7EF463 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		866F49451A3D6D5B002AEB8A /* LittleZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866F49491A3D6D5B002AEB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866F494A1A3D6D5B002AEB8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		866F494C1A3D6D5B002AEB8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		866F494D1A3D6D5B002AEB8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		866F494F1A3D6D5B002AEB8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		866F49501A3D6D5B002AEB8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		866F49531A3D6D5B002AEB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		866F49551A3D6D5B002AEB8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		866F49581A3D6D5B002AEB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		866F495E1A3D6D5C002AEB8A /* LittleZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		866F49631A3D6D5C002AEB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866F49641A3D6D5C002AEB8A /* LittleZooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleZooTests.m; sourceTree = "<group>"; };
+		866F49711A3D728D002AEB8A /* D3Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3Size.h; sourceTree = "<group>"; };
+		866F49721A3D728D002AEB8A /* D3Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D3Size.m; sourceTree = "<group>"; };
+		866F49741A3D8427002AEB8A /* PredatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredatorTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866F49421A3D6D5B002AEB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866F495B1A3D6D5C002AEB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2408E29EB5EA103EC4BC726A /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				2408E7F11BB872A8C35F0D63 /* Rabbit.h */,
+				2408E7E2B6191E3352369DA8 /* Rabbit.m */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		2408E39A5454D3434B9553BF /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				2408E398E50F546A70C403AD /* Animal.h */,
+				2408E631A8ADD7A157BD4424 /* Gracing.h */,
+				2408E8D3F63451FC669CFBD0 /* Predator.h */,
+				2408E03745D6C2B1A71596FB /* Gracing.m */,
+				2408ECC2B646A022A54D74F5 /* Predator.m */,
+				2408E29EB5EA103EC4BC726A /* Impl */,
+				2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */,
+				2408E4E8D1C0A9E7FE28B9C0 /* BaseAnimal.h */,
+			);
+			name = Animal;
+			sourceTree = "<group>";
+		};
+		2408E5B586008AB199A3BE41 /* Grass */ = {
+			isa = PBXGroup;
+			children = (
+				2408EDEA9804B76B2A7EF463 /* Vegetable.m */,
+				2408E1FDE8FC138F4E1B8640 /* Vegetable.h */,
+			);
+			name = Grass;
+			sourceTree = "<group>";
+		};
+		866F493C1A3D6D5B002AEB8A = {
+			isa = PBXGroup;
+			children = (
+				866F49471A3D6D5B002AEB8A /* LittleZoo */,
+				866F49611A3D6D5C002AEB8A /* LittleZooTests */,
+				866F49461A3D6D5B002AEB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		866F49461A3D6D5B002AEB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866F49451A3D6D5B002AEB8A /* LittleZoo.app */,
+				866F495E1A3D6D5C002AEB8A /* LittleZooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866F49471A3D6D5B002AEB8A /* LittleZoo */ = {
+			isa = PBXGroup;
+			children = (
+				866F496E1A3D6E0C002AEB8A /* Classes */,
+				866F49701A3D70E0002AEB8A /* UA */,
+				866F49481A3D6D5B002AEB8A /* Supporting Files */,
+			);
+			path = LittleZoo;
+			sourceTree = "<group>";
+		};
+		866F49481A3D6D5B002AEB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				866F49491A3D6D5B002AEB8A /* Info.plist */,
+				866F494A1A3D6D5B002AEB8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		866F49611A3D6D5C002AEB8A /* LittleZooTests */ = {
+			isa = PBXGroup;
+			children = (
+				866F49641A3D6D5C002AEB8A /* LittleZooTests.m */,
+				866F49621A3D6D5C002AEB8A /* Supporting Files */,
+				866F49741A3D8427002AEB8A /* PredatorTest.m */,
+			);
+			path = LittleZooTests;
+			sourceTree = "<group>";
+		};
+		866F49621A3D6D5C002AEB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				866F49631A3D6D5C002AEB8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		866F496E1A3D6E0C002AEB8A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				866F49711A3D728D002AEB8A /* D3Size.h */,
+				866F49721A3D728D002AEB8A /* D3Size.m */,
+				2408E590A4A9E268A8C2D151 /* Food.h */,
+				2408E39A5454D3434B9553BF /* Animal */,
+				2408E5B586008AB199A3BE41 /* Grass */,
+				2408E479608B3E7820CE54AE /* Measurable.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		866F49701A3D70E0002AEB8A /* UA */ = {
+			isa = PBXGroup;
+			children = (
+				866F494C1A3D6D5B002AEB8A /* AppDelegate.h */,
+				866F494D1A3D6D5B002AEB8A /* AppDelegate.m */,
+				866F494F1A3D6D5B002AEB8A /* ViewController.h */,
+				866F49501A3D6D5B002AEB8A /* ViewController.m */,
+				866F49521A3D6D5B002AEB8A /* Main.storyboard */,
+				866F49551A3D6D5B002AEB8A /* Images.xcassets */,
+				866F49571A3D6D5B002AEB8A /* LaunchScreen.xib */,
+			);
+			name = UA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866F49441A3D6D5B002AEB8A /* LittleZoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866F49681A3D6D5C002AEB8A /* Build configuration list for PBXNativeTarget "LittleZoo" */;
+			buildPhases = (
+				866F49411A3D6D5B002AEB8A /* Sources */,
+				866F49421A3D6D5B002AEB8A /* Frameworks */,
+				866F49431A3D6D5B002AEB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleZoo;
+			productName = LittleZoo;
+			productReference = 866F49451A3D6D5B002AEB8A /* LittleZoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		866F495D1A3D6D5C002AEB8A /* LittleZooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866F496B1A3D6D5C002AEB8A /* Build configuration list for PBXNativeTarget "LittleZooTests" */;
+			buildPhases = (
+				866F495A1A3D6D5C002AEB8A /* Sources */,
+				866F495B1A3D6D5C002AEB8A /* Frameworks */,
+				866F495C1A3D6D5C002AEB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866F49601A3D6D5C002AEB8A /* PBXTargetDependency */,
+			);
+			name = LittleZooTests;
+			productName = LittleZooTests;
+			productReference = 866F495E1A3D6D5C002AEB8A /* LittleZooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866F493D1A3D6D5B002AEB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Maya;
+				TargetAttributes = {
+					866F49441A3D6D5B002AEB8A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					866F495D1A3D6D5C002AEB8A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 866F49441A3D6D5B002AEB8A;
+					};
+				};
+			};
+			buildConfigurationList = 866F49401A3D6D5B002AEB8A /* Build configuration list for PBXProject "LittleZoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 866F493C1A3D6D5B002AEB8A;
+			productRefGroup = 866F49461A3D6D5B002AEB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866F49441A3D6D5B002AEB8A /* LittleZoo */,
+				866F495D1A3D6D5C002AEB8A /* LittleZooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866F49431A3D6D5B002AEB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866F49541A3D6D5B002AEB8A /* Main.storyboard in Resources */,
+				866F49591A3D6D5B002AEB8A /* LaunchScreen.xib in Resources */,
+				866F49561A3D6D5B002AEB8A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866F495C1A3D6D5C002AEB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866F49411A3D6D5B002AEB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866F49511A3D6D5B002AEB8A /* ViewController.m in Sources */,
+				866F49731A3D728D002AEB8A /* D3Size.m in Sources */,
+				866F494E1A3D6D5B002AEB8A /* AppDelegate.m in Sources */,
+				866F494B1A3D6D5B002AEB8A /* main.m in Sources */,
+				2408E81634864673B214B0FF /* Gracing.m in Sources */,
+				2408E0DB2A4297CCC22494C9 /* Predator.m in Sources */,
+				2408E8FCECE0AEDABB2ECE72 /* Rabbit.m in Sources */,
+				2408E6686BE8723F743B2CAE /* Vegetable.m in Sources */,
+				2408E23244B50CE9999E4908 /* BaseAnimal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866F495A1A3D6D5C002AEB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866F49651A3D6D5C002AEB8A /* LittleZooTests.m in Sources */,
+				866F49751A3D8427002AEB8A /* PredatorTest.m in Sources */,
+				2408E55FB844BCC895963763 /* Gracing.m in Sources */,
+				2408EEE2DBF8730F0F68F82C /* Predator.m in Sources */,
+				2408EC47ECBF0256F6626B2B /* Rabbit.m in Sources */,
+				2408E29F5B8A38CF23401222 /* Vegetable.m in Sources */,
+				2408E1214258C966BC2B7C3B /* BaseAnimal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		866F49601A3D6D5C002AEB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866F49441A3D6D5B002AEB8A /* LittleZoo */;
+			targetProxy = 866F495F1A3D6D5C002AEB8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		866F49521A3D6D5B002AEB8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866F49531A3D6D5B002AEB8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		866F49571A3D6D5B002AEB8A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866F49581A3D6D5B002AEB8A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		866F49661A3D6D5C002AEB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		866F49671A3D6D5C002AEB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		866F49691A3D6D5C002AEB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleZoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		866F496A1A3D6D5C002AEB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleZoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		866F496C1A3D6D5C002AEB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleZooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleZoo.app/LittleZoo";
+			};
+			name = Debug;
+		};
+		866F496D1A3D6D5C002AEB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleZooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleZoo.app/LittleZoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866F49401A3D6D5B002AEB8A /* Build configuration list for PBXProject "LittleZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866F49661A3D6D5C002AEB8A /* Debug */,
+				866F49671A3D6D5C002AEB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866F49681A3D6D5C002AEB8A /* Build configuration list for PBXNativeTarget "LittleZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866F49691A3D6D5C002AEB8A /* Debug */,
+				866F496A1A3D6D5C002AEB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866F496B1A3D6D5C002AEB8A /* Build configuration list for PBXNativeTarget "LittleZooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866F496C1A3D6D5C002AEB8A /* Debug */,
+				866F496D1A3D6D5C002AEB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 866F493D1A3D6D5B002AEB8A /* Project object */;
+}
