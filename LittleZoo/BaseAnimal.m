@@ -28,7 +28,7 @@
 
 
 - (BOOL)feed:(id <Food>)food {
-    return YES;
+    return (food.type == FoodType_Meat);
 }
 
 - (BOOL)play:(id)toy {

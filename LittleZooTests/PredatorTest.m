@@ -56,13 +56,16 @@
     XCTAssertFalse(result, @"Animal doesn't eat itself");
 }
 
-//- (void)testPerformanceExample {
+
+//- (void) testFeed_otherBigAnimal{
+//    D3Size *size = [[D3Size alloc] initWithHeight:@(15) width:@(37) length:@(39)];
+//    Predator *predator = [Predator animalWithSize:size weight:@(50)];
 //
-//    [self measureBlock:^{
-//
-//    }];
+//    Predator *elephant =
+//    BOOL result = [predator feed: predator];
 //}
-//
+
+
 
 
 @end

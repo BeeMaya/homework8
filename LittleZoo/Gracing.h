@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Animal.h"
-#import "Predator.h"
+#import "BaseAnimal.h"
 
 
 @class BaseAnimal;

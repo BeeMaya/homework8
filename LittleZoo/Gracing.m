@@ -4,18 +4,17 @@
 //
 
 #import "Animal.h"
-#import "BaseAnimal.h"
 #import "Gracing.h"
 
 @implementation Gracing{
 }
-
 @synthesize size = _size;
 @synthesize weight = _weight;
 
 - (BOOL)feed:(id <Food>)food {
-    return NO;
+    return food.type == FoodType_Grass, FoodType_Other;
 }
+
 
 - (BOOL)play:(id)toy {
     return NO;

@@ -26,6 +26,7 @@
 		866F49651A3D6D5C002AEB8A /* LittleZooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49641A3D6D5C002AEB8A /* LittleZooTests.m */; };
 		866F49731A3D728D002AEB8A /* D3Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49721A3D728D002AEB8A /* D3Size.m */; };
 		866F49751A3D8427002AEB8A /* PredatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49741A3D8427002AEB8A /* PredatorTest.m */; };
+		86C532901A461F91004CC515 /* GracingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5328F1A461F91004CC515 /* GracingTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		866F49711A3D728D002AEB8A /* D3Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3Size.h; sourceTree = "<group>"; };
 		866F49721A3D728D002AEB8A /* D3Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D3Size.m; sourceTree = "<group>"; };
 		866F49741A3D8427002AEB8A /* PredatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredatorTest.m; sourceTree = "<group>"; };
+		86C5328F1A461F91004CC515 /* GracingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GracingTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,8 @@
 				2408E03745D6C2B1A71596FB /* Gracing.m */,
 				2408ECC2B646A022A54D74F5 /* Predator.m */,
 				2408E29EB5EA103EC4BC726A /* Impl */,
-				2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */,
 				2408E4E8D1C0A9E7FE28B9C0 /* BaseAnimal.h */,
+				2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */,
 			);
 			name = Animal;
 			sourceTree = "<group>";
@@ -164,6 +166,7 @@
 				866F49641A3D6D5C002AEB8A /* LittleZooTests.m */,
 				866F49621A3D6D5C002AEB8A /* Supporting Files */,
 				866F49741A3D8427002AEB8A /* PredatorTest.m */,
+				86C5328F1A461F91004CC515 /* GracingTest.m */,
 			);
 			path = LittleZooTests;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				866F49651A3D6D5C002AEB8A /* LittleZooTests.m in Sources */,
 				866F49751A3D8427002AEB8A /* PredatorTest.m in Sources */,
 				2408E55FB844BCC895963763 /* Gracing.m in Sources */,
+				86C532901A461F91004CC515 /* GracingTest.m in Sources */,
 				2408EEE2DBF8730F0F68F82C /* Predator.m in Sources */,
 				2408EC47ECBF0256F6626B2B /* Rabbit.m in Sources */,
 				2408E29F5B8A38CF23401222 /* Vegetable.m in Sources */,
