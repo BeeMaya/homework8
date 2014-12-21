@@ -6,6 +6,7 @@
 #import "Animal.h"
 #import "BaseAnimal.h"
 #import "Food.h"
+#import "D3Size.h"
 
 @implementation BaseAnimal
 
@@ -23,12 +24,14 @@
 }
 
 + (instancetype)animalWithSize:(D3Size *)size weight:(NSNumber *)weight {
-    return [[self alloc] initWithSize:size weight:weight];
+    return [[self alloc] initWithSize:[size copy] weight:weight];
 }
 
 
 - (BOOL)feed:(id <Food>)food {
-    return (food.type == FoodType_Meat);
+    if(food != self)
+        return YES;
+    return NO;
 }
 
 - (BOOL)play:(id)toy {

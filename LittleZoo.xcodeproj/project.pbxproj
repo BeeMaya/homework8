@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2408E0DB2A4297CCC22494C9 /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408ECC2B646A022A54D74F5 /* Predator.m */; };
 		2408E1214258C966BC2B7C3B /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */; };
+		2408E124F2E8EB7526D4D10A /* Cage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E961939FB0481C29E09C /* Cage.m */; };
+		2408E1342D10D6D9749E7B7F /* Cage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E961939FB0481C29E09C /* Cage.m */; };
 		2408E23244B50CE9999E4908 /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */; };
 		2408E29F5B8A38CF23401222 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408EDEA9804B76B2A7EF463 /* Vegetable.m */; };
 		2408E55FB844BCC895963763 /* Gracing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E03745D6C2B1A71596FB /* Gracing.m */; };
@@ -17,6 +19,7 @@
 		2408E8FCECE0AEDABB2ECE72 /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E7E2B6191E3352369DA8 /* Rabbit.m */; };
 		2408EC47ECBF0256F6626B2B /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E7E2B6191E3352369DA8 /* Rabbit.m */; };
 		2408EEE2DBF8730F0F68F82C /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408ECC2B646A022A54D74F5 /* Predator.m */; };
+		863D6E3C1A46BEAA004EF4B3 /* Cage Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 863D6E3B1A46BEAA004EF4B3 /* Cage Test.m */; };
 		866F494B1A3D6D5B002AEB8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F494A1A3D6D5B002AEB8A /* main.m */; };
 		866F494E1A3D6D5B002AEB8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F494D1A3D6D5B002AEB8A /* AppDelegate.m */; };
 		866F49511A3D6D5B002AEB8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F49501A3D6D5B002AEB8A /* ViewController.m */; };
@@ -51,8 +54,11 @@
 		2408E7F11BB872A8C35F0D63 /* Rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rabbit.h; sourceTree = "<group>"; };
 		2408E85A7FC3065FD6B3F233 /* BaseAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimal.m; sourceTree = "<group>"; };
 		2408E8D3F63451FC669CFBD0 /* Predator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Predator.h; sourceTree = "<group>"; };
+		2408E961939FB0481C29E09C /* Cage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cage.m; sourceTree = "<group>"; };
+		2408E9C9A931B598E2857FBC /* Cage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cage.h; sourceTree = "<group>"; };
 		2408ECC2B646A022A54D74F5 /* Predator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Predator.m; sourceTree = "<group>"; };
 		2408EDEA9804B76B2A7EF463 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		863D6E3B1A46BEAA004EF4B3 /* Cage Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cage Test.m"; sourceTree = "<group>"; };
 		866F49451A3D6D5B002AEB8A /* LittleZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866F49491A3D6D5B002AEB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866F494A1A3D6D5B002AEB8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -167,6 +173,7 @@
 				866F49621A3D6D5C002AEB8A /* Supporting Files */,
 				866F49741A3D8427002AEB8A /* PredatorTest.m */,
 				86C5328F1A461F91004CC515 /* GracingTest.m */,
+				863D6E3B1A46BEAA004EF4B3 /* Cage Test.m */,
 			);
 			path = LittleZooTests;
 			sourceTree = "<group>";
@@ -188,6 +195,8 @@
 				2408E39A5454D3434B9553BF /* Animal */,
 				2408E5B586008AB199A3BE41 /* Grass */,
 				2408E479608B3E7820CE54AE /* Measurable.h */,
+				2408E961939FB0481C29E09C /* Cage.m */,
+				2408E9C9A931B598E2857FBC /* Cage.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -315,6 +324,7 @@
 				2408E8FCECE0AEDABB2ECE72 /* Rabbit.m in Sources */,
 				2408E6686BE8723F743B2CAE /* Vegetable.m in Sources */,
 				2408E23244B50CE9999E4908 /* BaseAnimal.m in Sources */,
+				2408E124F2E8EB7526D4D10A /* Cage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,10 +336,12 @@
 				866F49751A3D8427002AEB8A /* PredatorTest.m in Sources */,
 				2408E55FB844BCC895963763 /* Gracing.m in Sources */,
 				86C532901A461F91004CC515 /* GracingTest.m in Sources */,
+				863D6E3C1A46BEAA004EF4B3 /* Cage Test.m in Sources */,
 				2408EEE2DBF8730F0F68F82C /* Predator.m in Sources */,
 				2408EC47ECBF0256F6626B2B /* Rabbit.m in Sources */,
 				2408E29F5B8A38CF23401222 /* Vegetable.m in Sources */,
 				2408E1214258C966BC2B7C3B /* BaseAnimal.m in Sources */,
+				2408E1342D10D6D9749E7B7F /* Cage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

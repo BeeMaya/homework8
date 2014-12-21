@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "866F495D1A3D6D5C002AEB8A"
+               BuildableName = "LittleZooTests.xctest"
+               BlueprintName = "LittleZooTests"
+               ReferencedContainer = "container:LittleZoo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "866F495D1A3D6D5C002AEB8A"
+               BuildableName = "LittleZooTests.xctest"
+               BlueprintName = "LittleZooTests"
+               ReferencedContainer = "container:LittleZoo.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "Cage_Test/testAddAnimal">
+               </Test>
+               <Test
+                  Identifier = "Cage_Test/testIsAnimalInCage">
+               </Test>
+               <Test
+                  Identifier = "GracingTest">
+               </Test>
+               <Test
+                  Identifier = "LittleZooTests">
+               </Test>
+               <Test
+                  Identifier = "PredatorTest">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

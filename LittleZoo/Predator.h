@@ -11,8 +11,14 @@
 @class D3Size;
 
 
-@interface Predator : BaseAnimal
+@interface Predator : BaseAnimal <NSCopying>
+- (BOOL)isEqual:(id)other;
 
+- (BOOL)isEqualToPredator:(Predator *)predator;
+
+- (NSUInteger)hash;
+
+- (id)copyWithZone:(NSZone *)zone;
 
 
 @end

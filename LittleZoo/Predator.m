@@ -12,13 +12,38 @@
 
 }
 
-
 - (BOOL)feed:(id <Food>)food {
-    return (food.type == FoodType_Meat);
+    BOOL result = [super feed: food];
+    if(result)
+    result = (food.type == FoodType_Meat);
+
+    return result;
 }
 
-- (BOOL)play:(id)toy {
-    return NO;
+
+- (id)copyWithZone:(NSZone *)zone {
+    return [[[self class] allocWithZone:zone] init];
+}
+
+- (BOOL)isEqual:(id)other {
+    if (other == self)
+        return YES;
+    if (!other || ![[other class] isEqual:[self class]])
+        return NO;
+
+    return [self isEqualToPredator:other];
+}
+
+- (BOOL)isEqualToPredator:(Predator *)predator {
+    if (self == predator)
+        return YES;
+    if (predator == nil)
+        return NO;
+    return YES;
+}
+
+- (NSUInteger)hash {
+    return [super hash];
 }
 
 

@@ -30,5 +30,47 @@
     return result;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    D3Size *copy = [[[self class] allocWithZone:zone] init];
+
+    if (copy != nil) {
+        copy.height = self.height;
+        copy.width = self.width;
+        copy.length = self.length;
+    }
+
+    return copy;
+}
+
+- (BOOL)isEqual:(id)other {
+    if (other == self)
+        return YES;
+    if (!other || ![[other class] isEqual:[self class]])
+        return NO;
+
+    return [self isEqualToSize:other];
+}
+
+- (BOOL)isEqualToSize:(D3Size *)size {
+    if (self == size)
+        return YES;
+    if (size == nil)
+        return NO;
+    if (self.height != size.height && ![self.height isEqualToNumber:size.height])
+        return NO;
+    if (self.width != size.width && ![self.width isEqualToNumber:size.width])
+        return NO;
+    if (self.length != size.length && ![self.length isEqualToNumber:size.length])
+        return NO;
+    return YES;
+}
+
+- (NSUInteger)hash {
+    NSUInteger hash = [self.height hash];
+    hash = hash * 31u + [self.width hash];
+    hash = hash * 31u + [self.length hash];
+    return hash;
+}
+
 
 @end
