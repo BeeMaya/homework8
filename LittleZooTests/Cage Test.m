@@ -68,6 +68,7 @@
     id<Animal> predator3 = [Predator animalWithSize:size weight:@(7)];
     id<Animal> gracing1 = [Gracing animalWithSize:size weight:@(15)];
 
+    //create local array of objects
     [@[predator1,gracing1,predator2,predator3] enumerateObjectsUsingBlock:^(id <Animal> obj, NSUInteger idx, BOOL *stop) {
         [cage addAnimal:obj];
     }];

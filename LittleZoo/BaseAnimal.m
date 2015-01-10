@@ -13,6 +13,11 @@
 @synthesize size = _size;
 @synthesize weight = _weight;
 
+//@synthesize specтies = _species;
+
+//@synthesize name = _name;
+
+
 - (instancetype)initWithSize:(D3Size *)size weight:(NSNumber *)weight {
     self = [super init];
     if (self) {
@@ -27,6 +32,9 @@
     return [[self alloc] initWithSize:[size copy] weight:weight];
 }
 
+//+ (instancetype)animalWithSize:(D3Size *)size weight:(NSNumber *)weight species:(NSString *)species name:(NSString *)name{
+  //  return [[self alloc] initWithSize:[size copy] weight:weight];
+//}
 
 - (BOOL)feed:(id <Food>)food {
     if(food != self)

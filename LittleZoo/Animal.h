@@ -1,12 +1,4 @@
-//
-//  Animal.h
-//  LittleZoo
-//
-//  Created by Maya on 12/13/14.
-//  Copyright (c) 2014 Maya. All rights reserved.
-//
-
-#import <Foundation/Foundation.h>
+    #import <Foundation/Foundation.h>
 #import "Food.h"
 
 @class D3Size;
@@ -20,6 +12,9 @@
 @optional
 -(BOOL)sleep;
 
+//@property (nonatomic, copy) NSString *specтies;
+
+//@property (nonatomic, copy) NSString *name;
 
 
 @end
